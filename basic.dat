@@ -1,0 +1,14 @@
+param:	 I:	 B :=		#constraint right hand side values
+	1	40
+	2	8
+	3	10 ;
+param:	J:	C :=
+	1	8
+	2	6
+	3	3 ;
+param A:
+	1	2	3 :=	#left hand side of constraint equations
+ 1	1	2	-2	#A[i,j] i row label, j column label
+ 2	2	-1	3
+ 3	4	5	2 ;
+end;
