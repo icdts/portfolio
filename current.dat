@@ -3,7 +3,7 @@ set stocks := GE PPHM CTIC GOOG MCD MSFT HD JNJ VZ CAT;
 param T := 86;
 param mu := 1;
 
-param Return_asdf:
+param R:
 	GE	PPHM	CTIC	GOOG	MCD	MSFT	HD	JNJ	VZ	CAT :=
 1	-1.91	-0.07	-0.16	-4.45	0.91	-1.56	1.5	-1.43	-0.73	-2.98
 2	1.49	-0.04	0.22	77.6	5.03	1.73	2.93	0.7	0.69	21.03

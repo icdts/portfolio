@@ -1,5 +1,5 @@
 library(glpk)
-lp <- lpx_read_model("my_2.mod", "my_2.dat")
+lp <- lpx_read_model("current.mod", "current.dat")
 numrows <- lpx_get_num_rows(lp)
 numrows
 for (i in 1:numrows) {
